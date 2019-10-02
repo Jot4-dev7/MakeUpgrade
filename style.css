@@ -1,0 +1,190 @@
+/*Configurações Padrões*/
+
+	 header.cabecalho{
+	 	width:98%;
+		background-color:#cecece;
+		margin:-10px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding:10px;
+	 }
+	ul.menu{
+		display: block;
+		list-style:none;
+		text-decoration:none;
+		min-width:98%;
+		top:-20px;
+		text-align: center;
+	} 
+	
+	ul.menu ul{ 
+		list-style:none;
+		text-decoration:none;
+		position:absolute; 
+		display:none; 
+		box-shadow:2px 2px 2px #333;
+
+	}
+	 /* Configurações nivel 1*/
+	ul.menu{ 
+		display: inline-block;
+		font-family:Verdana, Geneva, sans-serif; 
+		font-size:15px; 
+		border-radius:5px; 
+		padding:0 10px;
+	}
+	.menu li{ 
+		float:left; 
+		width:auto; 
+		position:relative;
+	}
+	.menu li a{ 
+		display:block; 
+		padding:0 40px; 
+		line-height:45px; 
+		height:45px; 
+		float:left; 
+		transition:all 0.1s linear; 
+	}
+
+	#Autobiografia{
+		scroll-behavior: smooth;
+	}
+	 /* Configurações nivel 2*/
+		.menu li:hover > ul.submenu-1{ 
+		display:block; 
+		top:45px; 
+		left:0; 
+		padding:5px;
+		 width:200px; 
+		 border-radius:0 0 5px 5px;   
+		}
+	.menu ul.submenu-1 a{  
+		width:160px; 
+		padding:0 20px; 
+		border-radius:5px;  
+	}
+	 
+	/* Configurações nivel 2*/
+	.menu li:hover > ul.submenu-2{ 
+		display:block; 
+		top:0; 
+		left:195px; 
+		padding:5px; 
+		width:200px;  
+		border-radius: 0 5px 5px 5px; 
+	}
+	.menu ul.submenu-2 a{  
+		width:160px; 
+		padding:0 20px; 
+		border-radius:5px; 
+	}
+	 
+	/* Configurações nivel 3*/
+	.menu li:hover > ul.submenu-3{ 
+		display:block; 
+		top:0; left:195px; 
+		padding:5px; 
+		width:200px;  
+		border-radius: 0 5px 5px 5px; 
+	}
+	.menu ul.submenu-3 a{  
+		width:160px; 
+		padding:0 20px; 
+		border-radius:5px; 
+	}
+	/*Configurações de cores*/
+	 
+	/*nivel 1*/
+	.menu{
+		background:#B400FF;
+		position: relative;
+		text-align: center;
+	}
+	.menu a{ 
+		color:#000;
+	}
+	.menu li:hover > a{ 
+		background:#B400FF;  
+		color:#fff;
+	}
+	 
+	/*nivel 2*/
+	.submenu-1{ 
+		background:#999;
+	}
+	.submenu-1 a{
+		color:#fff;
+	}
+	.submenu-1 li:hover > a{ 
+		background:#666; 
+	}
+	 
+	/*nivel 3*/
+	.submenu-2{ 
+		background:#666;
+	}
+	.submenu-2 a{
+		color:#fff;
+	}
+	.submenu-2 li:hover > a{ 
+		background:#333; 
+	}
+	 
+	/*nivel 3*/
+	.submenu-3{ 
+		background:#333;
+	}
+	.submenu-3 a{
+		color:#fff;
+	}
+	.submenu-3 li:hover > a{ 
+		background:#000; 
+	}
+	/*configurações de formatação*/
+	h1{
+		text-align: center;
+		font-family: Arial;
+	    font-size: 40pt;
+	    color:#B400FF;
+	    text-shadow: 3px 3px 3px black;
+	}
+	p{
+		text-indent:justify;
+	}
+	h3{
+		text-align: center;
+	}
+	h4{
+		text-align: center;
+		font-style: oblique;
+	}
+	/*configurações do corpo*/
+	div.corpo{
+		display:block;
+		width:98%px;
+		background-color:#ffffff;
+		margin:28px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding:10px; 
+	}
+	/*configuração do formulário*/
+
+	fieldset.formulario{
+		width: 25%;
+		margin: 0 auto;
+	}
+	input:hover, textarea:hover{
+		background-color: #dddddd;
+	}
+	/*configuraçoes do rodapé*/
+	footer.rodape {
+		clear: both;
+		border-top: 1px solid #606060;
+		list-style:none; 
+		text-decoration: none;
+		text-align: center;
+		}
+		a{
+			list-style: none;
+			text-decoration: none;
+		}
